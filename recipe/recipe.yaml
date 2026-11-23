@@ -12,7 +12,7 @@ source:
   sha256: 1368b2a40f54ec91e865ead45b089d1ef14bf9899809ecccc44dbb6c86cee428
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - package:
@@ -66,6 +66,7 @@ outputs:
         - threadpoolctl
         - tqdm
         - trame
+        - trame-pyvista
         - trame-vtk
         - trame-vuetify
     tests:
